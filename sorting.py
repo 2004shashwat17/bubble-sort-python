@@ -16,7 +16,8 @@ def bubbleSort(arr):
 			if arr[j] > arr[j+1]:
 				arr[j], arr[j+1] = arr[j+1], arr[j]
 
-
+def test():
+	print('wecome000')
 # Driver code to test above
 if __name__ == "__main__":
     arr = [5, 1, 4, 2, 8]
